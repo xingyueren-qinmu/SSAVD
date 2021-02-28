@@ -1,0 +1,1025 @@
+{
+	"poc_info":
+	[
+		{
+			"cveId": "cve-2016-2061",
+			"type": "权限提升",
+			"description": "Integer signedness error in the MSM V4L2 video driver for the Linux kernel 3.x, as used in Qualcomm Innovation Center (QuIC) Android contributions for MSM devices and other products, allows attackers to gain privileges or cause a denial of service (array overflow and memory corruption) via a crafted application that triggers an msm_isp_axi_create_stream call.",
+			"location": "MSM V4L2 video driver",
+			"CVSSV2Score": "9.3",
+			"pocName": "cve-2016-2061",
+			"isVulnerality": "Vulnerable:0;Not Vulnerable:1;error:-1;",
+			"testType": "Push"
+		},
+		{
+			"cveId": "cve-2016-2411",
+			"type": "权限提升",
+			"description": "A Qualcomm Power Management kernel driver in Android allows attackers to gain privileges via a crafted application that leverages root access",
+			"location": "Qualcomm Power Management kernel driver",
+			"CVSSV2Score": "9.3",
+			"pocName": "cve-2016-2411",
+			"isVulnerality": "Vulnerable:0;Not Vulnerable:1;error:-1;",
+			"testType": "Push"
+		},
+		{
+			"cveId": "cve-2016-2469",
+			"type": "权限提升",
+			"description": "The Qualcomm sound driver in Android before 2016-06-01 allows attackers to gain privileges via a crafted application",
+			"location": "Qualcomm sound driver",
+			"CVSSV2Score": "9.3",
+			"pocName": "cve-2016-2469",
+			"isVulnerality": "Vulnerable:0;Not Vulnerable:1;error:-1;",
+			"testType": "Push"
+		},
+		{
+			"cveId": "cve-2016-2474",
+			"type": "权限提升",
+			"description": "The Qualcomm Wi-Fi driver in Android before 2016-06-01 allows attackers to gain privileges via a crafted application",
+			"location": "Qualcomm Wi-Fi driver",
+			"CVSSV2Score": "9.3",
+			"pocName": "cve-2016-2474",
+			"isVulnerality": "Vulnerable:0;Not Vulnerable:1;error:-1;",
+			"testType": "Push"
+		},
+		{
+			"cveId": "cve-2016-2501",
+			"type": "权限提升",
+			"description": "The Qualcomm camera driver in Android before 2016-07-05 on Nexus 5X, 6, 6P, and 7 (2013) devices allows attackers to gain privileges via a crafted application",
+			"location": "Qualcomm camera driver",
+			"CVSSV2Score": "9.3",
+			"pocName": "cve-2016-2501",
+			"isVulnerality": "Vulnerable:0;Not Vulnerable:1;error:-1;",
+			"testType": "Push"
+		},
+		{
+			"cveId": "cve-2016-3797",
+			"type": "权限提升",
+			"description": "The Qualcomm Wi-Fi driver in Android before 2016-07-05 allows attackers to gain privileges via a crafted application",
+			"location": "Qualcomm Wi-Fi driver",
+			"CVSSV2Score": "9.3",
+			"pocName": "cve-2016-3797",
+			"isVulnerality": "Vulnerable:reboot;Not Vulnerable:1;error:-1;",
+			"testType": "Push"
+		},
+		{
+			"cveId": "cve-2016-3865",
+			"type": "权限提升",
+			"description": "The Synaptics touchscreen driver in Android allows attackers to gain privileges via a crafted application",
+			"location": "Synaptics touchscreen driver",
+			"CVSSV2Score": "9.3",
+			"pocName": "cve-2016-3865",
+			"isVulnerality": "Vulnerable:0;Not Vulnerable:1;error:-1;",
+			"testType": "Push"
+		},
+		{
+			"cveId": "cve-2016-3866",
+			"type": "权限提升",
+			"description": "The Qualcomm sound driver in Android allows attackers to gain privileges via a crafted application",
+			"location": "Qualcomm sound driver",
+			"CVSSV2Score": "9.3",
+			"pocName": "cve-2016-3866",
+			"isVulnerality": "Vulnerable:0;Not Vulnerable:1;error:-1;",
+			"testType": "Push"
+		},
+		{
+			"cveId": "cve-2016-3867",
+			"type": "权限提升",
+			"description": "The Qualcomm IPA driver in Android allows attackers to gain privileges via a crafted application",
+			"location": "Qualcomm IPA driver",
+			"CVSSV2Score": "9.3",
+			"pocName": "cve-2016-3867",
+			"isVulnerality": "Vulnerable:0;Not Vulnerable:1;error:-1;",
+			"testType": "Push"
+		},
+		{
+			"cveId": "cve-2016-3868",
+			"type": "权限提升",
+			"description": "The Qualcomm power driver in Android before 2016-09-05 allows attackers to gain privileges via a crafted application",
+			"location": "Qualcomm power driver",
+			"CVSSV2Score": "9.3",
+			"pocName": "cve-2016-3868",
+			"isVulnerality": "Vulnerable:0;Not Vulnerable:1;error:-1;",
+			"testType": "Push"
+		},
+		{
+			"cveId": "cve-2016-3869",
+			"type": "权限提升",
+			"description": "The Broadcom Wi-Fi driver in Android allows attackers to gain privileges via a crafted application",
+			"location": "Broadcom Wi-Fi driver",
+			"CVSSV2Score": "9.3",
+			"pocName": "cve-2016-3869",
+			"isVulnerality": "Vulnerable:0;Not Vulnerable:1;error:-1;",
+			"testType": "Push"
+		},
+		{
+			"cveId": "cve-2016-3901",
+			"type": "权限提升",
+			"description": "Multiple integer overflows in drivers/crypto/msm/qcedev.c in the Qualcomm cryptographic engine driver in Android allow attackers to gain privileges via a crafted application",
+			"location": "/crypto/msm/qcedev.c",
+			"CVSSV2Score": "9.3",
+			"pocName": "cve-2016-3901",
+			"isVulnerality": "Vulnerable:0;Not Vulnerable:1;error:-1;",
+			"testType": "Push"
+		},
+		{
+			"cveId": "cve-2016-3928",
+			"type": "权限提升",
+			"description": "The MediaTek video driver in Android before 2016-10-05 allows attackers to gain privileges via a crafted application",
+			"location": "MediaTek video driver",
+			"CVSSV2Score": "9.3",
+			"pocName": "cve-2016-3928",
+			"isVulnerality": "Vulnerable:0;Not Vulnerable:1;error:-1;",
+			"testType": "Push"
+		},
+		{
+			"cveId": "cve-2016-3935",
+			"type": "权限提升",
+			"description": "Multiple integer overflows in drivers/crypto/msm/qcedev.c in the Qualcomm cryptographic engine driver in Android allow attackers to gain privileges via a crafted application",
+			"location": "drivers/crypto/msm/qcedev.c in the Qualcomm cryptographic engine driver",
+			"CVSSV2Score": "9.3",
+			"pocName": "cve-2016-3935",
+			"isVulnerality": "Vulnerable:0;Not Vulnerable:1;error:-1;",
+			"testType": "Push"
+		},
+		{
+			"cveId": "cve-2016-3936",
+			"type": "权限提升",
+			"description": "The MediaTek video driver in Android before 2016-10-05 allows attackers to gain privileges via a crafted application, aka Android internal bug 30019037 and MediaTek internal bug ALPS02829568.",
+			"location": "MediaTek video driver",
+			"CVSSV2Score": "9.3",
+			"pocName": "cve-2016-3936",
+			"isVulnerality": "Vulnerable:0;Not Vulnerable:1;error:-1;",
+			"testType": "Push"
+		},
+		{
+			"cveId": "cve-2016-3937",
+			"type": "权限提升",
+			"description": "The MediaTek video driver in Android before 2016-10-05 allows attackers to gain privileges via a crafted application",
+			"location": "MediaTek video driver",
+			"CVSSV2Score": "9.3",
+			"pocName": "cve-2016-3937",
+			"isVulnerality": "Vulnerable:0;Not Vulnerable:1;error:-1;",
+			"testType": "Push"
+		},
+		{
+			"cveId": "cve-2016-3940",
+			"type": "权限提升",
+			"description": "The Synaptics touchscreen driver allows attackers to gain privileges via a crafted application",
+			"location": "Synaptics touch driver",
+			"CVSSV2Score": "9.3",
+			"pocName": "cve-2016-3940",
+			"isVulnerality": "Vulnerable:0;Not Vulnerable:1;error:-1;",
+			"testType": "Push"
+		},
+		{
+			"cveId": "cve-2016-6672",
+			"type": "权限提升",
+			"description": "The Synaptics touchscreen driver in Android allows attackers to gain privileges via a crafted application",
+			"location": "Synaptics touchscreen driver",
+			"CVSSV2Score": "9.3",
+			"pocName": "cve-2016-6672",
+			"isVulnerality": "Vulnerable:reboot;Not Vulnerable:1;error:-1;",
+			"testType": "Push"
+		},
+		{
+			"cveId": "cve-2016-6738",
+			"type": "权限提升",
+			"description": " could enable a local malicious application to execute arbitrary code within the context of the kernel.",
+			"location": "Qualcomm crypto engine driver ",
+			"CVSSV2Score": "9.3",
+			"pocName": "cve-2016-6738",
+			"isVulnerality": "Vulnerable:0;Not Vulnerable:1;error:-1;",
+			"testType": "Push"
+		},
+		{
+			"cveId": "cve-2016-6742",
+			"type": "权限提升",
+			"description": "An elevation of privilege vulnerability in the Synaptics touchscreen driver in Android enables a local malicious application to execute arbitrary code within the context of the kernel.",
+			"location": "Synaptics touchscreen driver",
+			"CVSSV2Score": "9.3",
+			"pocName": "cve-2016-6742",
+			"isVulnerality": "Vulnerable:0;Not Vulnerable:1;error:-1;",
+			"testType": "Push"
+		},
+		{
+			"cveId": "cve-2016-6744",
+			"type": "权限提升",
+			"description": "An elevation of privilege vulnerability in the Synaptics touchscreen driver in Android enables a local malicious application to execute arbitrary code within the context of the kernel.",
+			"location": "Synaptics touchscreen driver",
+			"CVSSV2Score": "9.3",
+			"pocName": "cve-2016-6744",
+			"isVulnerality": "Vulnerable:0;Not Vulnerable:1;error:-1;",
+			"testType": "Push"
+		},
+		{
+			"cveId": "cve-2016-6745",
+			"type": "权限提升",
+			"description": "An elevation of privilege vulnerability in the Synaptics touchscreen driver in Android before 2016-11-05 could enable a local malicious application to execute arbitrary code within the context of the kernel.",
+			"location": "Synaptics touchscreen driver",
+			"CVSSV2Score": "9.3",
+			"pocName": "cve-2016-6745",
+			"isVulnerality": "Vulnerable:0;Not Vulnerable:1;error:-1;",
+			"testType": "Push"
+		},
+		{
+			"cveId": "cve-2016-9120",
+			"type": "权限提升",
+			"description": "Race condition in the ion_ioctl function in drivers/staging/android/ion/ion.c in the Linux kernel before 4.6 allows local users to gain privileges or cause a denial of service (use-after-free) by calling ION_IOC_FREE on two CPUs at the same time.",
+			"location": "drivers/staging/android/ion/ion.c ",
+			"CVSSV2Score": "9.3",
+			"pocName": "cve-2016-9120",
+			"isVulnerality": "Vulnerable:0;Not Vulnerable:1;error:-1;",
+			"testType": "Push"
+		},
+		{
+			"cveId": "cve-2017-0504",
+			"type": "权限提升",
+			"description": "An elevation of privilege vulnerability in MediaTek components, including the M4U driver, sound driver, touchscreen driver, GPU driver, and Command Queue driver, could enable a local malicious application to execute arbitrary code within the context of the kernel. ",
+			"location": "MediaTek components",
+			"CVSSV2Score": "9.3",
+			"pocName": "cve-2017-0504",
+			"isVulnerality": "Vulnerable:reboot;Not Vulnerable:1;error:-1;",
+			"testType": "Push"
+		},
+		{
+			"cveId": "exp-cve-2016-2411",
+			"type": "权限提升",
+			"description": "A Qualcomm Power Management kernel driver in Android allows attackers to gain privileges via a crafted application that leverages root access",
+			"location": "Qualcomm Power Management kernel driver",
+			"CVSSV2Score": "9.3",
+			"pocName": "exp-cve-2016-2411",
+			"isVulnerality": "Vulnerable:reboot;Not Vulnerable:1;error:-1;",
+			"testType": "Push"
+		},
+		{
+			"cveId": "exp-cve-2016-2435",
+			"type": "权限提升",
+			"description": "The NVIDIA video driver in Android before 2016-05-01 allows attackers to gain privileges via a crafted application",
+			"location": "NVIDIA video driver",
+			"CVSSV2Score": "9.3",
+			"pocName": "exp-cve-2016-2435",
+			"isVulnerality": "Vulnerable:reboot;Not Vulnerable:1;error:-1;",
+			"testType": "Push"
+		},
+		{
+			"cveId": "exp-cve-2016-3857",
+			"type": "权限提升",
+			"description": "The kernel in Android before 2016-08-05 allows attackers to gain privileges via a crafted application",
+			"location": "",
+			"CVSSV2Score": "9.3",
+			"pocName": "exp-cve-2016-3857",
+			"isVulnerality": "Vulnerable:0;Not Vulnerable:1;error:-1;",
+			"testType": "Push"
+		},
+		{
+			"cveId": "exp-cve-2016-3928",
+			"type": "权限提升",
+			"description": "The MediaTek video driver in Android before 2016-10-05 allows attackers to gain privileges via a crafted application",
+			"location": "MediaTek video driver",
+			"CVSSV2Score": "9.3",
+			"pocName": "cve-2016-3928",
+			"isVulnerality": "Vulnerable:0;Not Vulnerable:1;error:-1;",
+			"testType": "Push"
+		},
+		{
+			"cveId": "exp-cve-2016-3935",
+			"type": "权限提升",
+			"description": "Multiple integer overflows in drivers/crypto/msm/qcedev.c in the Qualcomm cryptographic engine driver in Android allow attackers to gain privileges via a crafted application",
+			"location": "drivers/crypto/msm/qcedev.c in the Qualcomm cryptographic engine driver",
+			"CVSSV2Score": "9.3",
+			"pocName": "exp-cve-2016-3935",
+			"isVulnerality": "Vulnerable:0;Not Vulnerable:1;error:-1;",
+			"testType": "Push"
+		},
+		{
+			"cveId": "exp-cve-2016-3936",
+			"type": "权限提升",
+			"description": "The MediaTek video driver in Android before 2016-10-05 allows attackers to gain privileges via a crafted application, aka Android internal bug 30019037 and MediaTek internal bug ALPS02829568.",
+			"location": "MediaTek video driver",
+			"CVSSV2Score": "9.3",
+			"pocName": "cve-2016-3936",
+			"isVulnerality": "Vulnerable:0;Not Vulnerable:1;error:-1;",
+			"testType": "Push"
+		},
+		{
+			"cveId": "exp-cve-2016-6738",
+			"type": "权限提升",
+			"description": " could enable a local malicious application to execute arbitrary code within the context of the kernel.",
+			"location": "Qualcomm crypto engine driver ",
+			"CVSSV2Score": "9.3",
+			"pocName": "exp-cve-2016-6738",
+			"isVulnerality": "Vulnerable:0;Not Vulnerable:1;error:-1;",
+			"testType": "Push"
+		},
+		{
+			"cveId": "cve-2016-10285",
+			"type": "权限提升",
+			"description": "An elevation of privilege vulnerability in the Qualcomm video driver could enable a local malicious application to execute arbitrary code within the context of the kernel. This issue is rated as High because it first requires compromising a privileged process. Product: Android",
+			"location": "Qualcomm video driver",
+			"CVSSV2Score": "7.6",
+			"pocName": "cve-2016-10285",
+			"isVulnerality": "Vulnerable:0;Not Vulnerable:1;error:-1;",
+			"testType": "Push"
+		},
+		{
+			"cveId": "cve-2016-10288",
+			"type": "权限提升",
+			"description": "An elevation of privilege vulnerability in the Qualcomm LED driver could enable a local malicious application to execute arbitrary code within the context of the kernel. This issue is rated as High because it first requires compromising a privileged process. ",
+			"location": "Qualcomm LED driver",
+			"CVSSV2Score": "7.6",
+			"pocName": "cve-2016-10288",
+			"isVulnerality": "Vulnerable:0;Not Vulnerable:1;error:-1;",
+			"testType": "Push"
+		},
+		{
+			"cveId": "cve-2016-10290",
+			"type": "权限提升",
+			"description": "An elevation of privilege vulnerability in the Qualcomm shared memory driver could enable a local malicious application to execute arbitrary code within the context of the kernel. This issue is rated as High because it first requires compromising a privileged process.",
+			"location": "Qualcomm shared memory driver",
+			"CVSSV2Score": "7.6",
+			"pocName": "cve-2016-10290",
+			"isVulnerality": "Vulnerable:0;Not Vulnerable:1;error:-1;",
+			"testType": "Push"
+		},
+		{
+			"cveId": "cve-2016-8464",
+			"type": "权限提升",
+			"description": "An elevation of privilege vulnerability in the Broadcom Wi-Fi driver could enable a local malicious application to execute arbitrary code within the context of the kernel.",
+			"location": "Broadcom Wi-Fi driver",
+			"CVSSV2Score": "7.6",
+			"pocName": "cve-2016-8464",
+			"isVulnerality": "Vulnerable:0;Not Vulnerable:1;error:-1;",
+			"testType": "Push"
+		},
+		{
+			"cveId": "cve-2017-0403",
+			"type": "权限提升",
+			"description": "An elevation of privilege vulnerability in the kernel performance subsystem could enable a local malicious application to execute arbitrary code within the context of the kernel. This issue is rated as High because it first requires compromising a privileged process.",
+			"location": "kernel performance subsystem ",
+			"CVSSV2Score": "7.6",
+			"pocName": "cve-2017-0403",
+			"isVulnerality": "Vulnerable:0;Not Vulnerable:1;error:-1;",
+			"testType": "Push"
+		},
+		{
+			"cveId": "cve-2017-0404",
+			"type": "权限提升",
+			"description": "An elevation of privilege vulnerability in the kernel sound subsystem could enable a local malicious application to execute arbitrary code within the context of the kernel.",
+			"location": "kernel sound subsystem",
+			"CVSSV2Score": "7.6",
+			"pocName": "cve-2017-0404",
+			"isVulnerality": "Vulnerable:0;Not Vulnerable:1;error:-1;",
+			"testType": "Push"
+		},
+		{
+			"cveId": "cve-2017-0432",
+			"type": "权限提升",
+			"description": "An elevation of privilege vulnerability in the MediaTek driver could enable a local malicious application to execute arbitrary code within the context of the kernel. ",
+			"location": "MediaTek Driver",
+			"CVSSV2Score": "7.6",
+			"pocName": "cve-2017-0432",
+			"isVulnerality": "Vulnerable:0;Not Vulnerable:1;error:-1;",
+			"testType": "Push"
+		},
+		{
+			"cveId": "cve-2017-0434",
+			"type": "权限提升",
+			"description": "An elevation of privilege vulnerability in the Synaptics touchscreen driver could enable a local malicious application to execute arbitrary code within the context of the touchscreen chipset.",
+			"location": "Synaptics touch driver",
+			"CVSSV2Score": "7.6",
+			"pocName": "cve-2017-0434",
+			"isVulnerality": "Vulnerable:0;Not Vulnerable:1;error:-1;",
+			"testType": "Push"
+		},
+		{
+			"cveId": "cve-2017-0446",
+			"type": "权限提升",
+			"description": "An elevation of privilege vulnerability in the HTC touchscreen driver could enable a local malicious application to execute arbitrary code within the context of the kernel. ",
+			"location": "HTC touchscreen driver",
+			"CVSSV2Score": "7.6",
+			"pocName": "cve-2017-0446",
+			"isVulnerality": "Vulnerable:0;Not Vulnerable:1;error:-1;",
+			"testType": "Push"
+		},
+		{
+			"cveId": "cve-2017-0447",
+			"type": "权限提升",
+			"description": "An elevation of privilege vulnerability in the HTC touchscreen driver could enable a local malicious application to execute arbitrary code within the context of the kernel.",
+			"location": "HTC touchscreen driver",
+			"CVSSV2Score": "7.6",
+			"pocName": "cve-2017-0447",
+			"isVulnerality": "Vulnerable:0;Not Vulnerable:1;error:-1;",
+			"testType": "Push"
+		},
+		{
+			"cveId": "cve-2017-0516",
+			"type": "权限提升",
+			"description": "An elevation of privilege vulnerability in the Qualcomm input hardware driver could enable a local malicious application to execute arbitrary code within the context of the kernel.",
+			"location": "Qualcomm input hardware driver",
+			"CVSSV2Score": "7.6",
+			"pocName": "cve-2017-0516",
+			"isVulnerality": "Vulnerable:0;Not Vulnerable:1;error:-1;",
+			"testType": "Push"
+		},
+		{
+			"cveId": "cve-2017-0518",
+			"type": "权限提升",
+			"description": "An elevation of privilege vulnerability in the Qualcomm fingerprint sensor driver could enable a local malicious application to execute arbitrary code within the context of the kernel.",
+			"location": "Qualcomm fingerprint sensor driver",
+			"CVSSV2Score": "7.6",
+			"pocName": "cve-2017-0518",
+			"isVulnerality": "Vulnerable:0;Not Vulnerable:1;error:-1;",
+			"testType": "Push"
+		},
+		{
+			"cveId": "cve-2017-0519",
+			"type": "权限提升",
+			"description": "An elevation of privilege vulnerability in the Qualcomm fingerprint sensor driver could enable a local malicious application to execute arbitrary code within the context of the kernel. ",
+			"location": "Qualcomm fingerprint sensor driver",
+			"CVSSV2Score": "7.6",
+			"pocName": "cve-2017-0519",
+			"isVulnerality": "Vulnerable:0;Not Vulnerable:1;error:-1;",
+			"testType": "Push"
+		},
+		{
+			"cveId": "cve-2017-0521",
+			"type": "权限提升",
+			"description": "An elevation of privilege vulnerability in the Qualcomm camera driver could enable a local malicious application to execute arbitrary code within the context of the kernel.",
+			"location": "Qualcomm camera driver",
+			"CVSSV2Score": "7.6",
+			"pocName": "cve-2017-0521",
+			"isVulnerality": "Vulnerable:0;Not Vulnerable:1;error:-1;",
+			"testType": "Push"
+		},
+		{
+			"cveId": "cve-2017-0524",
+			"type": "权限提升",
+			"description": "An elevation of privilege vulnerability in the Synaptics touchscreen driver could enable a local malicious application to execute arbitrary code within the context of the kernel.",
+			"location": "Synaptics touchscreen driver",
+			"CVSSV2Score": "7.6",
+			"pocName": "cve-2017-0524",
+			"isVulnerality": "Vulnerable:0;Not Vulnerable:1;error:-1;",
+			"testType": "Push"
+		},
+		{
+			"cveId": "cve-2017-0576",
+			"type": "权限提升",
+			"description": "An elevation of privilege vulnerability in the Qualcomm crypto engine driver could enable a local malicious application to execute arbitrary code within the context of the kernel. ",
+			"location": "Qualcomm crypto driver",
+			"CVSSV2Score": "7.6",
+			"pocName": "cve-2017-0576",
+			"isVulnerality": "Vulnerable:0;Not Vulnerable:1;error:-1;",
+			"testType": "Push"
+		},
+		{
+			"cveId": "exp-cve-2017-0434",
+			"type": "权限提升",
+			"description": "An elevation of privilege vulnerability in the Synaptics touchscreen driver could enable a local malicious application to execute arbitrary code within the context of the touchscreen chipset.",
+			"location": "Synaptics touch driver",
+			"CVSSV2Score": "7.6",
+			"pocName": "cve-2017-0434",
+			"isVulnerality": "Vulnerable:0;Not Vulnerable:1;error:-1;",
+			"testType": "Push"
+		},
+		{
+			"cveId": "cve-2015-0572",
+			"type": "权限提升",
+			"description": "Multiple race conditions in drivers/char/adsprpc.c and drivers/char/adsprpc_compat.c in the ADSPRPC driver for the Linux kernel 3.x, as used in Qualcomm Innovation Center (QuIC) Android contributions for MSM devices and other products, allow attackers to cause a denial of service (zero-value write) or possibly have unspecified other impact via a COMPAT_FASTRPC_IOCTL_INVOKE_FD ioctl call.",
+			"location": "ADSPRPC driver",
+			"CVSSV2Score": "7.5",
+			"pocName": "cve-2015-0572",
+			"isVulnerality": "Vulnerable:0;Not Vulnerable:1;error:-1;",
+			"testType": "Push"
+		},
+		{
+			"cveId": "cve-2013-6282",
+			"type": "权限提升",
+			"description": "The (1) get_user and (2) put_user API functions in the Linux kernel before 3.5.5 on the v6k and v7 ARM platforms do not validate certain addresses, which allows attackers to read or modify the contents of arbitrary kernel memory locations via a crafted application, as exploited in the wild against Android devices in October and November 2013.",
+			"location": "get_user/put_user",
+			"CVSSV2Score": "7.2",
+			"pocName": "cve-2013-6282check",
+			"isVulnerality": "Vulnerable:Device is vulnerable;Not Vulnerable:0;Error:-1",
+			"testType": "Push"
+		},
+		{
+			"cveId": "cve-2015-8966",
+			"type": "权限提升",
+			"description": "arch/arm/kernel/sys_oabi-compat.c in the Linux kernel before 4.4 allows local users to gain privileges via a crafted (1) F_OFD_GETLK, (2) F_OFD_SETLK, or (3) F_OFD_SETLKW command in an fcntl64 system call.",
+			"location": "arch/arm/kernel/sys_oabi-compat.c",
+			"CVSSV2Score": "7.2",
+			"pocName": "cve-2015-8966",
+			"isVulnerality": "Vulnerable:0;Not Vulnerable:1;error:-1;",
+			"testType": "Push"
+		},
+		{
+			"cveId": "cve-2016-0805",
+			"type": "权限提升",
+			"description": "The performance event manager for Qualcomm ARM processors in Android 4.x before 4.4.4, 5.x before 5.1.1 LMY49G, and 6.x before 2016-02-01 allows attackers to gain privileges via a crafted application, aka internal bug 25773204.\t",
+			"location": "perf_event_open",
+			"CVSSV2Score": "7.2",
+			"pocName": "cve-2016-0805",
+			"isVulnerality": "Vulnerable:0;Not Vulnerable:1;error:-1;",
+			"testType": "Push"
+		},
+		{
+			"cveId": "cve-2016-0844",
+			"type": "权限提升",
+			"description": "The Qualcomm RF driver does not properly restrict access to socket ioctl calls, which allows attackers to gain privileges via a crafted application",
+			"location": "msm ipa driver",
+			"CVSSV2Score": "7.2",
+			"pocName": "cve-2016-0844",
+			"isVulnerality": "Vulnerable:0;Not Vulnerable:1;error:-1;",
+			"testType": "Push"
+		},
+		{
+			"cveId": "cve-2017-0705",
+			"type": "权限提升",
+			"description": "A elevation of privilege vulnerability in the Broadcom wi-fi driver.",
+			"location": "Broadcom wi-fi driver",
+			"CVSSV2Score": "7.2",
+			"pocName": "cve-2017-0705",
+			"isVulnerality": "Vulnerable:0;Not Vulnerable:1;error:-1;",
+			"testType": "Push"
+		},
+		{
+			"cveId": "cve-2018-9445",
+			"type": "权限提升",
+			"description": "An elevation of privilege vulnerability in the kernel performance subsystem could enable a local malicious application to execute arbitrary code within the context of the kernel. This issue is rated as High because it first requires compromising a privileged process.",
+			"location": "readMetadata of Utils.cpp",
+			"CVSSV2Score": "7.2",
+			"pocName": "cve-2018-9445",
+			"isVulnerality": "Vulnerable:0;Not Vulnerable:1;error:-1;",
+			"testType": "Push"
+		},
+		{
+			"cveId": "exp-cve-2016-0805",
+			"type": "权限提升",
+			"description": "The performance event manager for Qualcomm ARM processors in Android 4.x before 4.4.4, 5.x before 5.1.1 LMY49G, and 6.x before 2016-02-01 allows attackers to gain privileges via a crafted application, aka internal bug 25773204.\t",
+			"location": "perf_event_open",
+			"CVSSV2Score": "7.2",
+			"pocName": "cve-2016-0805",
+			"isVulnerality": "Vulnerable:0;Not Vulnerable:1;error:-1;",
+			"testType": "Push"
+		},
+		{
+			"cveId": "exp-cve-2016-9793 ",
+			"type": "权限提升",
+			"description": "The sock_setsockopt function in net/core/sock.c in the Linux kernel before 4.8.14 mishandles negative values of sk_sndbuf and sk_rcvbuf, which allows local users to cause a denial of service (memory corruption and system crash) or possibly have unspecified other impact by leveraging the CAP_NET_ADMIN capability for a crafted setsockopt system call with the (1) SO_SNDBUFFORCE or (2) SO_RCVBUFFORCE option.",
+			"location": "net/core/sock.c",
+			"CVSSV2Score": "7.2",
+			"pocName": "exp-cve-2016-9793 ",
+			"isVulnerality": "Vulnerable:0;Not Vulnerable:1;error:-1;",
+			"testType": "Push"
+		},
+		{
+			"cveId": "exp-cve-2017-6074",
+			"type": "权限提升",
+			"description": "The dccp_rcv_state_process function in net/dccp/input.c in the Linux kernel through 4.9.11 mishandles DCCP_PKT_REQUEST packet data structures in the LISTEN state, which allows local users to obtain root privileges or cause a denial of service (double free) via an application that makes an IPV6_RECVPKTINFO setsockopt system call.",
+			"location": "net/dccp/input.c",
+			"CVSSV2Score": "7.2",
+			"pocName": "exp-cve-2017-6074",
+			"isVulnerality": "Vulnerable:0;Not Vulnerable:1;error:-1;",
+			"testType": "Push"
+		},
+		{
+			"cveId": "exp-cve-2017-7308",
+			"type": "权限提升",
+			"description": "The packet_set_ring function in net/packet/af_packet.c in the Linux kernel through 4.10.6 does not properly validate certain block-size data, which allows local users to cause a denial of service (integer signedness error and out-of-bounds write), or gain privileges (if the CAP_NET_RAW capability is held), via crafted system calls.",
+			"location": "net/packet/af_packet.c",
+			"CVSSV2Score": "7.2",
+			"pocName": "exp-cve-2017-7308",
+			"isVulnerality": "Vulnerable:0;Not Vulnerable:1;error:-1;",
+			"testType": "Push"
+		},
+		{
+			"cveId": "cve-2016-6690",
+			"type": "拒绝服务",
+			"description": "The sound driver in the kernel in Android allows attackers to cause a denial of service (reboot) via a crafted application",
+			"location": "Android kernel sound driver",
+			"CVSSV2Score": "7.1",
+			"pocName": "cve-2016-6690",
+			"isVulnerality": "Vulnerable:0;Not Vulnerable:1;error:-1;",
+			"testType": "Push"
+		},
+		{
+			"cveId": "exp-cve-2016-6690",
+			"type": "拒绝服务",
+			"description": "The sound driver in the kernel in Android allows attackers to cause a denial of service (reboot) via a crafted application",
+			"location": "Android kernel sound driver",
+			"CVSSV2Score": "7.1",
+			"pocName": "cve-2016-6690",
+			"isVulnerality": "Vulnerable:0;Not Vulnerable:1;error:-1;",
+			"testType": "Push"
+		},
+		{
+			"cveId": "cve-2017-1000112",
+			"type": "权限提升",
+			"description": "Exploitable memory corruption due to UFO to non-UFO path switch.",
+			"location": "",
+			"CVSSV2Score": "6.9",
+			"pocName": "cve-2017-1000112",
+			"isVulnerality": "Vulnerable:0;Not Vulnerable:1;error:-1;",
+			"testType": "Push"
+		},
+		{
+			"cveId": "cve-2017-1000405",
+			"type": "权限提升",
+			"description": "The Linux Kernel versions 2.6.38 through 4.14 have a problematic use of pmd_mkdirty() in the touch_pmd() function inside the THP implementation. touch_pmd() can be reached by get_user_pages(). In such case, the pmd will become dirty. ",
+			"location": "pmd_mkdirty() in the touch_pmd() function",
+			"CVSSV2Score": "6.9",
+			"pocName": "cve-2017-1000405",
+			"isVulnerality": "Vulnerable:0;Not Vulnerable:1;error:-1;",
+			"testType": "Push"
+		},
+		{
+			"cveId": "cve-2017-8244",
+			"type": "权限提升",
+			"description": "In core_info_read and inst_info_read in all Android releases from CAF using the Linux kernel, variable \"dbg_buf\", \"dbg_buf->curr\" and \"dbg_buf->filled_size\" could be modified by different threads at the same time, but they are not protected with mutex or locks.",
+			"location": "core_info)read and inst_info_read",
+			"CVSSV2Score": "6.9",
+			"pocName": "cve-2017-8244",
+			"isVulnerality": "Vulnerable:0;Not Vulnerable:1;error:-1;",
+			"testType": "Push"
+		},
+		{
+			"cveId": "exp-cve-2017-1000112",
+			"type": "权限提升",
+			"description": "Exploitable memory corruption due to UFO to non-UFO path switch.",
+			"location": "",
+			"CVSSV2Score": "6.9",
+			"pocName": "exp-cve-2017-1000112",
+			"isVulnerality": "Vulnerable:0;Not Vulnerable:1;error:-1;",
+			"testType": "Push"
+		},
+		{
+			"cveId": "cve-2017-10997",
+			"type": "权限提升",
+			"description": "In all Qualcomm products with Android releases from CAF using the Linux kernel, using a debugfs node, a write to a PCIe register can cause corruption of kernel memory.",
+			"location": " PCIe register ",
+			"CVSSV2Score": "6.8",
+			"pocName": "cve-2017-10997",
+			"isVulnerality": "Vulnerable:reboot;Not Vulnerable:1;error:-1;",
+			"testType": "Push"
+		},
+		{
+			"cveId": "cve-2017-8260",
+			"type": "权限提升",
+			"description": "In all Qualcomm products with Android releases from CAF using the Linux kernel, due to a type downcast, a value may improperly pass validation and cause an out of bounds write later.",
+			"location": "",
+			"CVSSV2Score": "6.8",
+			"pocName": "cve-2017-8260",
+			"isVulnerality": "Vulnerable:0;Not Vulnerable:1;error:-1;",
+			"testType": "Push"
+		},
+		{
+			"cveId": "cve-2017-8266",
+			"type": "权限提升",
+			"description": "In all Qualcomm products with Android releases from CAF using the Linux kernel, a race condition exists in a video driver potentially leading to a use-after-free condition.",
+			"location": "Qualcomm viceo driver",
+			"CVSSV2Score": "5.1",
+			"pocName": "cve-2017-8266",
+			"isVulnerality": "Vulnerable:0;Not Vulnerable:1;error:-1;",
+			"testType": "Push"
+		},
+		{
+			"cveId": "cve-2017-8270",
+			"type": "权限提升",
+			"description": "In all Qualcomm products with Android releases from CAF using the Linux kernel, a race condition exists in a driver potentially leading to a use-after-free condition.",
+			"location": "Qualcomm driver",
+			"CVSSV2Score": "5.1",
+			"pocName": "cve-2017-8270",
+			"isVulnerality": "Vulnerable:0;Not Vulnerable:1;error:-1;",
+			"testType": "Push"
+		},
+		{
+			"cveId": "cve-2017-9793",
+			"type": "DOS",
+			"description": "The REST Plugin in Apache Struts 2.3.7 through 2.3.33 and 2.5 through 2.5.12 is using an outdated XStream library which is vulnerable and allow perform a DoS attack using malicious request with specially crafted XML payload.",
+			"location": "XStream library ",
+			"CVSSV2Score": "5.0",
+			"pocName": "cve-2017-9793",
+			"isVulnerality": "Vulnerable:0;Not Vulnerable:1;error:-1;",
+			"testType": "Push"
+		},
+		{
+			"cveId": "cve-2015-5165",
+			"type": "信息泄漏",
+			"description": "This vulnerability has been modified since it was last analyzed by the NVD. It is awaiting reanalysis which may result in further changes to the information provided.",
+			"location": "RTL8139 network card device model in QEMU",
+			"CVSSV2Score": "5.0",
+			"pocName": "cve-2015-5165",
+			"isVulnerality": "Vulnerable:0;Not Vulnerable:1;error:-1;",
+			"testType": "Push"
+		},
+		{
+			"cveId": "cve-2017-0823",
+			"type": "信息泄漏",
+			"description": "An information disclosure vulnerability in the Android system (rild).",
+			"location": "socket/rild",
+			"CVSSV2Score": "5.0",
+			"pocName": "cve-2017-0823",
+			"isVulnerality": "Vulnerable:0;Not Vulnerable:1;error:-1;",
+			"testType": "Push"
+		},
+		{
+			"cveId": "exp-cve-2017-0823",
+			"type": "信息泄漏",
+			"description": "An information disclosure vulnerability in the Android system (rild).",
+			"location": "socket/rild",
+			"CVSSV2Score": "5.0",
+			"pocName": "cve-2017-0823",
+			"isVulnerality": "Vulnerable:0;Not Vulnerable:1;error:-1;",
+			"testType": "Push"
+		},
+		{
+			"cveId": "exp-cve-2016-2384",
+			"type": "DOS",
+			"description": "Double free vulnerability in the snd_usbmidi_create function in sound/usb/midi.c in the Linux kernel before 4.5 allows physically proximate attackers to cause a denial of service (panic) or possibly have unspecified other impact via vectors involving an invalid USB descriptor.",
+			"location": "sound/usb/midi.c",
+			"CVSSV2Score": "4.9",
+			"pocName": "exp-cve-2016-2384",
+			"isVulnerality": "Vulnerable:0;Not Vulnerable:1;error:-1;",
+			"testType": "Push"
+		},
+		{
+			"cveId": "cve-2015-3636",
+			"type": "允许中断服务",
+			"description": "The ping_unhash function in net/ipv4/ping.c in the Linux kernel before 4.0.3 does not initialize a certain list data structure during an unhash operation, which allows local users to gain privileges or cause a denial of service (use-after-free and system crash) by leveraging the ability to make a SOCK_DGRAM socket system call for the IPPROTO_ICMP or IPPROTO_ICMPV6 protocol, and then making a connect system call after a disconnect.",
+			"location": "net/ipv4/ping.c",
+			"CVSSV2Score": "4.9",
+			"pocName": "cve-2015-3636",
+			"isVulnerality": "Vulnerable:0;Not Vulnerable:1;error:-1;",
+			"testType": "Push"
+		},
+		{
+			"cveId": "cve-2016-2384",
+			"type": "允许中断服务",
+			"description": "Double free vulnerability in the snd_usbmidi_create function in sound/usb/midi.c in the Linux kernel before 4.5 allows physically proximate attackers to cause a denial of service (panic) or possibly have unspecified other impact via vectors involving an invalid USB descriptor.",
+			"location": "snd_usbmidi_create function in sound/usb/midi.c",
+			"CVSSV2Score": "4.9",
+			"pocName": "cve-2016-2384",
+			"isVulnerality": "Vulnerable:0;Not Vulnerable:1;error:-1;",
+			"testType": "Push"
+		},
+		{
+			"cveId": "cve-2018-18281",
+			"type": "权限提升",
+			"description": "Since Linux kernel version 3.2, the mremap() syscall performs TLB flushes after dropping pagetable locks. If a syscall such as ftruncate() removes entries from the pagetables of a task that is in the middle of mremap(), a stale TLB entry can remain for a short time that permits access to a physical page after it has been released back to the page allocator and reused.",
+			"location": "mremap()",
+			"CVSSV2Score": "4.6",
+			"pocName": "cve-2018-18281",
+			"isVulnerality": "Vulnerable:0;Not Vulnerable:1;error:-1;",
+			"testType": "Push"
+		},
+		{
+			"cveId": "cve-2016-3794",
+			"type": "信息泄漏",
+			"description": "he NVIDIA camera driver in Android allows attackers to obtain sensitive information via a crafted application",
+			"location": "NVIDIA camera driver",
+			"CVSSV2Score": "4.3",
+			"pocName": "cve-2016-3794",
+			"isVulnerality": "Vulnerable:0;Not Vulnerable:1;error:-1;",
+			"testType": "Push"
+		},
+		{
+			"cveId": "cve-2016-3813",
+			"type": "信息泄漏",
+			"description": "The Qualcomm USB driver in Android before 2016-07-05 allows attackers to obtain sensitive information via a crafted application",
+			"location": "Qualcomm USB driver ",
+			"CVSSV2Score": "4.3",
+			"pocName": "cve-2016-3813",
+			"isVulnerality": "Vulnerable:0;Not Vulnerable:1;error:-1;",
+			"testType": "Push"
+		},
+		{
+			"cveId": "cve-2016-3814",
+			"type": "信息泄漏",
+			"description": "he NVIDIA camera driver in Android allows attackers to obtain sensitive information via a crafted application",
+			"location": "NVIDIA camera driver",
+			"CVSSV2Score": "4.3",
+			"pocName": "cve-2016-3814",
+			"isVulnerality": "Vulnerable:0;Not Vulnerable:1;error:-1;",
+			"testType": "Push"
+		},
+		{
+			"cveId": "cve-2016-3815 ",
+			"type": "信息泄漏",
+			"description": "The NVIDIA camera driver in Android before 2016-07-05 allows attackers to obtain sensitive information via a crafted application",
+			"location": "NVIDIA camera driver",
+			"CVSSV2Score": "4.3",
+			"pocName": "cve-2016-3815 ",
+			"isVulnerality": "Vulnerable:0;Not Vulnerable:1;error:-1;",
+			"testType": "Push"
+		},
+		{
+			"cveId": "cve-2016-3893 ",
+			"type": "信息泄漏",
+			"description": "The wcdcal_hwdep_ioctl_shared function in sound/soc/codecs/wcdcal-hwdep.c in the Qualcomm sound codec in Android before 2016-09-05 allows attackers to obtain sensitive information via a crafted application",
+			"location": "Qualcomm sound codec ",
+			"CVSSV2Score": "4.3",
+			"pocName": "cve-2017-8260",
+			"isVulnerality": "Vulnerable:0;Not Vulnerable:1;error:-1;",
+			"testType": "Push"
+		},
+		{
+			"cveId": "cve-2016-3902",
+			"type": "信息泄漏",
+			"description": "drivers/platform/msm/ipa/ipa_qmi_service.c in the Qualcomm IPA driver in Android before 2016-10-05 allows attackers to obtain sensitive information via a crafted application",
+			"location": "Qualcomm IPA driver",
+			"CVSSV2Score": "4.3",
+			"pocName": "cve-2016-3902",
+			"isVulnerality": "Vulnerable:0;Not Vulnerable:1;error:-1;",
+			"testType": "Push"
+		},
+		{
+			"cveId": "cve-2017-6426",
+			"type": "信息泄漏",
+			"description": "An information disclosure vulnerability in the Qualcomm SPMI driver. Product: Android. Versions: Android kernel. ",
+			"location": "Qualcomm SPMI driver",
+			"CVSSV2Score": "4.3",
+			"pocName": "cve-2017-6426",
+			"isVulnerality": "Vulnerable:0;Not Vulnerable:1;error:-1;",
+			"testType": "Push"
+		},
+		{
+			"cveId": "cve-2017-0624",
+			"type": "信息泄露",
+			"description": "An information disclosure vulnerability in the Qualcomm Wi-Fi driver could enable a local malicious application to access data outside of its permission levels. This issue is rated as High because it could be used to access sensitive data without explicit user permission.",
+			"location": "Qualcomm Wi-Fi driver",
+			"CVSSV2Score": "4.3",
+			"pocName": "cve-2017-0624",
+			"isVulnerality": "Vulnerable:0;Not Vulnerable:1;error:-1;",
+			"testType": "Push"
+		},
+		{
+			"cveId": "exp-cve-2017-0624",
+			"type": "信息泄露",
+			"description": "An information disclosure vulnerability in the Qualcomm Wi-Fi driver could enable a local malicious application to access data outside of its permission levels. This issue is rated as High because it could be used to access sensitive data without explicit user permission.",
+			"location": "Qualcomm Wi-Fi driver",
+			"CVSSV2Score": "4.3",
+			"pocName": "cve-2017-0624",
+			"isVulnerality": "Vulnerable:0;Not Vulnerable:1;error:-1;",
+			"testType": "Push"
+		},
+		{
+			"cveId": "cve-2016-3906",
+			"type": "权限提升",
+			"description": "An information disclosure vulnerability in Qualcomm components including the GPU driver, power driver, SMSM Point-to-Point driver, and sound driver in Android enable a local malicious application to access data outside of its permission levels.",
+			"location": "Qualcomm components",
+			"CVSSV2Score": "4.3",
+			"pocName": "cve-2016-3906",
+			"isVulnerality": "Vulnerable:0;Not Vulnerable:1;error:-1;",
+			"testType": "Push"
+		},
+		{
+			"cveId": "cve-2016-10295",
+			"type": "信息泄漏",
+			"description": "An information disclosure vulnerability in the Qualcomm LED driver could enable a local malicious application to access data outside of its permission levels. This issue is rated as Moderate because it first requires compromising a privileged process.",
+			"location": "Qualcomm LED driver",
+			"CVSSV2Score": "2.6",
+			"pocName": "cve-2016-10295",
+			"isVulnerality": "Vulnerable:0;Not Vulnerable:1;error:-1;",
+			"testType": "Push"
+		},
+		{
+			"cveId": "cve-2016-10296",
+			"type": "信息泄漏",
+			"description": "An information disclosure vulnerability in the Qualcomm shared memory driver could enable a local malicious application to access data outside of its permission levels. This issue is rated as Moderate because it first requires compromising a privileged process.",
+			"location": "Qualcomm shared memory driver",
+			"CVSSV2Score": "2.6",
+			"pocName": "cve-2016-10296",
+			"isVulnerality": "Vulnerable:0;Not Vulnerable:1;error:-1;",
+			"testType": "Push"
+		},
+		{
+			"cveId": "cve-2016-8477",
+			"type": "信息泄漏",
+			"description": "An information disclosure vulnerability in the Qualcomm camera driver could enable a local malicious application to access data outside of its permission levels.",
+			"location": "Qualcomm camera driver ",
+			"CVSSV2Score": "2.6",
+			"pocName": "cve-2016-8477",
+			"isVulnerality": "Vulnerable:0;Not Vulnerable:1;error:-1;",
+			"testType": "Push"
+		},
+		{
+			"cveId": "cve-2017-0451",
+			"type": "信息泄漏",
+			"description": "An information disclosure vulnerability in the Qualcomm sound driver could enable a local malicious application to access data outside of its permission levels.",
+			"location": "Qualcomm sound driver",
+			"CVSSV2Score": "2.6",
+			"pocName": "cve-2017-0451",
+			"isVulnerality": "Vulnerable:0;Not Vulnerable:1;error:-1;",
+			"testType": "Push"
+		},
+		{
+			"cveId": "cve-2017-0531",
+			"type": "信息泄漏",
+			"description": "An information disclosure vulnerability in the Qualcomm Wi-Fi driver could enable a local malicious application to access data outside of its permission levels.",
+			"location": "Qualcomm Wi-Fi driver ",
+			"CVSSV2Score": "2.6",
+			"pocName": "cve-2017-0531",
+			"isVulnerality": "Vulnerable:0;Not Vulnerable:1;error:-1;",
+			"testType": "Push"
+		},
+		{
+			"cveId": "cve-2017-0536",
+			"type": "信息泄漏",
+			"description": "An information disclosure vulnerability in the Synaptics touchscreen driver could enable a local malicious application to access data outside of its permission levels.",
+			"location": "Synaptics touchscreen driver",
+			"CVSSV2Score": "2.6",
+			"pocName": "cve-2017-0536",
+			"isVulnerality": "Vulnerable:0;Not Vulnerable:1;error:-1;",
+			"testType": "Push"
+		},
+		{
+			"cveId": "cve-2016-8413",
+			"type": "权限提升",
+			"description": "An information disclosure vulnerability in the Qualcomm camera driver could enable a local malicious application to access data outside of its permission levels. ",
+			"location": "Qualcomm camera driver",
+			"CVSSV2Score": "2.6",
+			"pocName": "cve-2016-8413",
+			"isVulnerality": "Vulnerable:0;Not Vulnerable:1;error:-1;",
+			"testType": "Push"
+		},
+		{
+			"cveId": "exp-cve-2016-8413",
+			"type": "权限提升",
+			"description": "An information disclosure vulnerability in the Qualcomm camera driver could enable a local malicious application to access data outside of its permission levels. ",
+			"location": "Qualcomm camera driver",
+			"CVSSV2Score": "2.6",
+			"pocName": "cve-2016-8413",
+			"isVulnerality": "Vulnerable:0;Not Vulnerable:1;error:-1;",
+			"testType": "Push"
+		},
+		{
+			"cveId": "cve-2016-10294",
+			"type": "信息泄漏",
+			"description": "An information disclosure vulnerability in the Qualcomm power driver could enable a local malicious application to access data outside of its permission levels. This issue is rated as Moderate because it first requires compromising a privileged process. Product: Android.",
+			"location": "Qualcomm power driver",
+			"CVSSV2Score": "2.4",
+			"pocName": "cve-2016-10294",
+			"isVulnerality": "Vulnerable:0;Not Vulnerable:1;error:-1;",
+			"testType": "Push"
+		},
+		{
+			"cveId": "cve-2017-6076",
+			"type": "信息泄漏",
+			"description": "In versions of wolfSSL before 3.10.2 the function fp_mul_comba makes it easier to extract RSA key information for a malicious user who has access to view cache on a machine.",
+			"location": "fp_mul_comba function",
+			"CVSSV2Score": "2.1",
+			"pocName": "cve-2017-6076",
+			"isVulnerality": "Vulnerable:0;Not Vulnerable:1;error:-1;",
+			"testType": "Push"
+		},
+		{
+			"cveId": "cve-2018-9355",
+			"type": "权限提升",
+			"description": "In bta_dm_sdp_result of bta_dm_act.cc, there is a possible out of bounds stack write due to a missing bounds check.",
+			"location": "bta_dm_act.c",
+			"CVSSV2Score": "10",
+			"pocName": "cve-2018-9355",
+			"isVulnerality": "Vulnerable:0;Not Vulnerable:1;error:-1;",
+			"testType": "Push"
+		},
+		{
+			"cveId": "cve-2017-9691",
+			"type": "信息泄漏",
+			"description": "There is a race condition in Android for MSM, Firefox OS for MSM, and QRD Android that allows to access to already free'd memory in the debug message output functionality contained within the mobicore driver.",
+			"location": "MSM",
+			"CVSSV2Score": "1.9",
+			"pocName": "cve-2017-9691",
+			"isVulnerality": "Vulnerable:0;Not Vulnerable:1;error:-1;",
+			"testType": "Push"
+		},
+		{
+			"cveId": "cve-2016-5195",
+			"type": "权限提升",
+			"description": "Race condition in mm/gup.c in the Linux kernel 2.x through 4.x allows local users to gain privileges by leveraging incorrect handling of a copy-on-write (COW) feature to write to a read-only memory mapping",
+			"location": "mm/gup.c",
+			"CVSSV2Score": "7.2",
+			"pocName": "cve-2016-5195",
+			"isVulnerality": "Vulnerable:0;Not Vulnerable:1;error:-1;",
+			"testType": "Push"
+		},
+		{
+			"cveId": "cve-2016-5342",
+			"type": "权限提升",
+			"description": "Heap-based buffer overflow in the wcnss_wlan_write function in drivers/net/wireless/wcnss/wcnss_wlan.c in the wcnss_wlan device driver for the Linux kernel 3.x, as used in Qualcomm Innovation Center (QuIC) Android contributions for MSM devices and other products, allows attackers to cause a denial of service or possibly have unspecified other impact by writing to /dev/wcnss_wlan with an unexpected amount of data.",
+			"location": "drivers/net/wireless/wcnss/wcnss_wlan.c",
+			"CVSSV2Score": "7.2",
+			"pocName": "cve-2016-5342",
+			"isVulnerality": "Vulnerable:0;Not Vulnerable:1;error:-1;",
+			"testType": "Push"
+		},
+		{
+			"cveId": "cve-2018-14634",
+			"type": "权限提升",
+			"description": "An integer overflow flaw was found in the Linux kernel's create_elf_tables() function. An unprivileged local user with access to SUID (or otherwise privileged) binary could use this flaw to escalate their privileges on the system. ",
+			"location": "create_elf_tables() ",
+			"CVSSV2Score": "7.2",
+			"pocName": "cve-2018-14634",
+			"isVulnerality": "Vulnerable:0;Not Vulnerable:1;error:-1;",
+			"testType": "Push"
+		}
+	]
+}

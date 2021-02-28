@@ -1,0 +1,56 @@
+{
+  "buildInfo": {
+    "cpuABI": "arm64-v8a",
+    "cpuABI2": "",
+    "release": "7.1.2",
+    "kernelVersion": "Linux version 3.18.31-g24a4020b992c (android-build@wphp5.hot.corp.google.com) (gcc version 4.9.x 20150123 (prerelease) (GCC) ) #1 SMP PREEMPT Thu Jun 29 16:55:05 UTC 2017",
+    "fingerprint": "google/sailfish/sailfish:7.1.2/NZH54D/4146044:user/release-keys",
+    "builddate": "1498760150",
+    "model": "Pixel",
+    "sdk": "25",
+    "id": "NZH54D",
+    "brand": "google",
+    "manufacturer": "Google"
+  },
+  "results": [
+    {
+      "exception": "null",
+      "name": "cve-2016-2469",
+      "vulExists": true,
+      "details": {
+        "altNames": "",
+        "CVSSV2Score": "9.3",
+        "impact": "",
+        "description": "The Qualcomm sound driver in Android before 2016-06-01 allows attackers to gain privileges via a crafted application",
+        "location": "Qualcomm sound driver",
+        "type": "权限提升"
+      }
+    },
+    {
+      "exception": "null",
+      "name": "cve-2016-3865",
+      "vulExists": true,
+      "details": {
+        "altNames": "",
+        "CVSSV2Score": "9.3",
+        "impact": "",
+        "description": "The Synaptics touchscreen driver in Android allows attackers to gain privileges via a crafted application",
+        "location": "Synaptics touchscreen driver",
+        "type": "权限提升"
+      }
+    },
+    {
+      "exception": "null",
+      "name": "cve-2016-3867",
+      "vulExists": true,
+      "details": {
+        "altNames": "",
+        "CVSSV2Score": "9.3",
+        "impact": "",
+        "description": "The Qualcomm IPA driver in Android allows attackers to gain privileges via a crafted application",
+        "location": "Qualcomm IPA driver",
+        "type": "权限提升"
+      }
+    }
+  ]
+}
